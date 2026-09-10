@@ -1,0 +1,33 @@
+{
+    "dragon_spear_cast": {
+      "sounds": [
+        "combat_skills:dragon_spear_cast"
+      ]
+    },
+  "rage_start_sound": {
+    "sounds": [
+      "combat_skills:rage_start_sound"
+    ]
+  },
+  "rage_end_sound": {
+    "sounds": [
+      "combat_skills:rage_end_sound"
+    ]
+  },
+  "hooking": {
+    "sounds": [
+      "combat_skills:hooking"
+    ]
+  },
+  "crushing_blow": {
+    "sounds": [
+      "combat_skills:crushing_blow"
+    ]
+  },
+  "swift_jerk": {
+    "sounds": [
+      "combat_skills:swift_jerk"
+    ]
+  }
+
+}

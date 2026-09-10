@@ -1,0 +1,87 @@
+{
+  "ui.combat_skills.cast_error_stamina": "Not enough stamina to use the technique.",
+  "ui.combat_skills.skill_component": "Required: %s",
+  "ui.combat_skills.no_component": "No required weapon",
+  "ui.combat_skills.stamina_cost": " Stamina Cost: %d",
+  "ui.combat_scills.no_cast": "In rage you cannot cast spells",
+
+  "tooltip.combat_skills.stamina_cost_per_second": "Stamina/sec: %d",
+
+  "attribute.combat_skills.sword_magic_resist": "Sword Resist",
+  "attribute.combat_skills.sword_spell_power": "Sword Skill Power",
+  "attribute.combat_skills.skill_power": "Skill Power",
+
+  "school.combat_skills.sword": "Sword Skill",
+
+  "combat_skills.spears": "Spears",
+  "combat_skills.daggers": "Daggers",
+  "combat_skills.hammers": "Hammers",
+  "combat_skills.maces": "Maces",
+  "combat_skills.staffs": "Staffs",
+  "combat_skills.scythes": "Scythes",
+
+  "combat_skills.bows": "Bows",
+  "combat_skills.shields": "Shields",
+
+  "combat_skills.crushing": "Crushing",
+  "combat_skills.cutting": "Cutting",
+  "combat_skills.stabbing": "Stabbing",
+
+  "minecraft.swords": "Swords",
+  "minecraft.axes": "Axes",
+
+  "effect.combat_skills.instant_stamina": "Instant Stamina",
+  "effect.combat_skills.rage_effect": "Rage",
+  "effect.combat_skills.stunning": "Stunning",
+  "effect.combat_skills.parry_effect": "Parry",
+  "effect.combat_skills.swift_jerk_effect": "Swift jerk",
+
+  "item.minecraft.potion.effect.stamina_potion_one": " Small Stamina potion",
+  "item.minecraft.splash_potion.effect.stamina_potion_one": "Splash small stamina potion",
+  "item.minecraft.lingering_potion.effect.stamina_potion_one": "Lingering small stamina potion",
+
+  "item.minecraft.potion.effect.stamina_potion_two": "Medium Stamina potion",
+  "item.minecraft.splash_potion.effect.stamina_potion_two": "Splash medium stamina potion",
+  "item.minecraft.lingering_potion.effect.stamina_potion_two": "Lingering medium stamina potion",
+
+  "item.minecraft.potion.effect.stamina_potion_three": "Big Stamina potion",
+  "item.minecraft.splash_potion.effect.stamina_potion_three": "Splash big stamina potion",
+  "item.minecraft.lingering_potion.effect.stamina_potion_three": "Lingering big stamina potion",
+
+  "attack.death.combat_skills.sword_aura": "%1$s was cut in half",
+  "attack.death.combat_skills.swift_jerk": "%1$s was pierced right through",
+  "attack.death.combat_skills.crushing_blow": "%1$s was cut from top to bottom",
+  "attack.death.combat_skills.dragon_spear": "%1$s was pierced",
+  "attack.death.combat_skills.hooking": "%1$s was killed",
+  "attack.death.combat_skills.shield_strike": "%1$s was killed",
+
+  "spell.combat_skills.sword_aura": "Slash",
+  "spell.combat_skills.sword_aura.guide": "Concentrate your sword energy and release it as a strike.",
+
+  "spell.combat_skills.swift_jerk": "Swift Jerk",
+  "spell.combat_skills.swift_jerk.guide": "You make a swift dash, holding your sword out in front of you.",
+
+  "spell.combat_skills.crushing_blow": "Crushing Blow",
+  "spell.combat_skills.crushing_blow.guide": "A powerful blow that crushes enemies.",
+
+  "spell.combat_skills.dragon_spear": "Dragon Spear",
+  "spell.combat_skills.dragon_spear.guide": "Rise into the air and then descend upon your enemies with a devastating blow.",
+
+  "spell.combat_skills.rage_skill": "Rage",
+  "spell.combat_skills.rage_skill.guide": "The fury of battle fills you, giving you strength.",
+
+  "spell.combat_skills.ruthless_uppercut": "Ruthless Uppercut",
+  "spell.combat_skills.ruthless_uppercut.guide": "Throw the enemy up with a powerful blow",
+
+  "spell.combat_skills.hooking": "Hooking",
+  "spell.combat_skills.hooking.guide": "Hit the enemy's legs, making him slow down",
+
+  "spell.combat_skills.parry": "Parry",
+  "spell.combat_skills.parry.guide": "Choose your moment and parry to avoid damage.",
+
+  "spell.combat_skills.shield_strike": "Shield Strike",
+  "spell.combat_skills.shield_strike.guide": "Hit the enemy with your shield to slow him down and stun him with a small chance.",
+
+  "spell.combat_skills.ram_skill": "Ram",
+  "spell.combat_skills.ram_skill.guide": "Break through hordes of enemies."
+}

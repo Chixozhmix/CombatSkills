@@ -1,0 +1,143 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "spartanweaponry:wooden_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:cooper_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:iron_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:golden_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:diamond_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:netherite_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:tin_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:bronze_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:steel_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:silver_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:electrum_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:lead_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:nickel_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:invar_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:constantan_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:platinum_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:aluminum_battle_hammer",
+      "required": false
+    },
+
+
+    {
+      "id": "spartanweaponry:wooden_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:cooper_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:iron_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:golden_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:diamond_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:netherite_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:tin_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:bronze_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:steel_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:silver_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:electrum_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:lead_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:nickel_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:invar_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:constantan_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:platinum_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:aluminum_warhammer",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+package net.chixozhmix.combat_skills.events;
+
+import net.chixozhmix.combat_skills.CombatSkills;
+import net.chixozhmix.combat_skills.entity.sword_aura.SwordAuraRenderer;
+import net.chixozhmix.combat_skills.registry.CsEntityRegistry;
+import net.minecraft.client.renderer.entity.NoopRenderer;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.EntityRenderersEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+
+@Mod.EventBusSubscriber(modid = CombatSkills.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+public class ClientSetup {
+   @SubscribeEvent
+   public static void rendererRegister(EntityRenderersEvent.RegisterRenderers event) {
+       event.registerEntityRenderer(CsEntityRegistry.SWORD_AURA_PROJECTILE.get(), SwordAuraRenderer::new);
+       event.registerEntityRenderer(CsEntityRegistry.DRAGON_SPEAR_AOE.get(), NoopRenderer::new);
+   }
+}

@@ -1,0 +1,87 @@
+{
+  "ui.combat_skills.cast_error_stamina": "Недостаточно выносливости для использования техники.",
+  "ui.combat_skills.skill_component": "Требуется: %s",
+  "ui.combat_skills.no_component": "Требуемое оружие отсутствует",
+  "ui.combat_skills.stamina_cost": " Расход выносливости: %d",
+  "ui.combat_scills.no_cast": "В ярости нельзя использовать заклинания",
+
+  "tooltip.combat_skills.stamina_cost_per_second": "Выносливость/сек: %d",
+
+  "attribute.combat_skills.sword_magic_resist": "Сопротивление оружию",
+  "attribute.combat_skills.sword_spell_power": "Сила навыков оружия",
+  "attribute.combat_skills.skill_power": "Сила навыков",
+
+  "school.combat_skills.sword": "Навыки оружия",
+
+  "combat_skills.spears": "Копья",
+  "combat_skills.daggers": "Кинжалы",
+  "combat_skills.hammers": "Молоты",
+  "combat_skills.maces": "Булавы",
+  "combat_skills.staffs": "Посохи",
+  "combat_skills.scythes": "Косы",
+
+  "combat_skills.bows": "Луки",
+  "combat_skills.shields": "Щиты",
+
+  "combat_skills.crushing": "Дробящие",
+  "combat_skills.cutting": "Режущие",
+  "combat_skills.stabbing": "Колющие",
+
+  "minecraft.swords": "Мечи",
+  "minecraft.axes": "Топоры",
+
+  "effect.combat_skills.instant_stamina": "Мгновенное восстановление выносливости",
+  "effect.combat_skills.rage_effect": "Ярость",
+  "effect.combat_skills.stunning": "Оглушение",
+  "effect.combat_skills.parry_effect": "Парирование",
+  "effect.combat_skills.swift_jerk_effect": "Стремительный рывок",
+
+  "item.minecraft.potion.effect.stamina_potion_one": "Малое зелье выносливости",
+  "item.minecraft.splash_potion.effect.stamina_potion_one": "Взрывное малое зелье выносливости",
+  "item.minecraft.lingering_potion.effect.stamina_potion_one": "Оседающее малое зелье выносливости",
+
+  "item.minecraft.potion.effect.stamina_potion_two": "Среднее зелье выносливости",
+  "item.minecraft.splash_potion.effect.stamina_potion_two": "Взрывное среднее зелье выносливости",
+  "item.minecraft.lingering_potion.effect.stamina_potion_two": "Оседающее среднее зелье выносливости",
+
+  "item.minecraft.potion.effect.stamina_potion_three": "Большое зелье выносливости",
+  "item.minecraft.splash_potion.effect.stamina_potion_three": "Взрывное большое зелье выносливости",
+  "item.minecraft.lingering_potion.effect.stamina_potion_three": "Оседающее большое зелье выносливости",
+
+  "attack.death.combat_skills.sword_aura": "%1$s был разрублен пополам",
+  "attack.death.combat_skills.swift_jerk": "%1$s был пронзён насквозь",
+  "attack.death.combat_skills.crushing_blow": "%1$s был разрублен сверху донизу",
+  "attack.death.combat_skills.dragon_spear": "%1$s был пронзён",
+  "attack.death.combat_skills.hooking": "%1$s был убит",
+  "attack.death.combat_skills.shield_strike": "%1$s был убит",
+
+  "spell.combat_skills.sword_aura": "Разрез",
+  "spell.combat_skills.sword_aura.guide": "Сконцентрируйте энергию меча и выпустите её в виде удара.",
+
+  "spell.combat_skills.swift_jerk": "Стремительный рывок",
+  "spell.combat_skills.swift_jerk.guide": "Совершите стремительный рывок, выставив меч перед собой.",
+
+  "spell.combat_skills.crushing_blow": "Сокрушительный удар",
+  "spell.combat_skills.crushing_blow.guide": "Мощный удар, сокрушающий врагов.",
+
+  "spell.combat_skills.dragon_spear": "Копьё дракона",
+  "spell.combat_skills.dragon_spear.guide": "Взлетите в воздух, а затем обрушьтесь на врагов с сокрушительным ударом.",
+
+  "spell.combat_skills.rage_skill": "Ярость",
+  "spell.combat_skills.rage_skill.guide": "Ярость битвы охватывает вас, даруя вам силу.",
+
+  "spell.combat_skills.ruthless_uppercut": "Безжалостный апперкот",
+  "spell.combat_skills.ruthless_uppercut.guide": "Подбросьте врага в воздух мощным ударом.",
+
+  "spell.combat_skills.hooking": "Подсечка",
+  "spell.combat_skills.hooking.guide": "Ударьте врага по ногам, замедлив его.",
+
+  "spell.combat_skills.parry": "Парирование",
+  "spell.combat_skills.parry.guide": "Выберите подходящий момент и парируйте удар, чтобы избежать урона.",
+
+  "spell.combat_skills.shield_strike": "Удар щитом",
+  "spell.combat_skills.shield_strike.guide": "Ударьте врага щитом, чтобы замедлить его и с небольшим шансом оглушить.",
+
+  "spell.combat_skills.ram_skill": "Таран",
+  "spell.combat_skills.ram_skill.guide": "Пробивайтесь через толпы врагов."
+}
