@@ -98,7 +98,7 @@ dependencies {
     testAnnotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
     //Biblio
-    implementation fg.deobf("curse.maven:chixozhmixs-lib-1675099:8778919")
+    implementation fg.deobf("curse.maven:chixozhmixs-lib-1675099:8864717")
 
     implementation fg.deobf("curse.maven:playeranimator-658587:4587214")
     implementation fg.deobf("curse.maven:caelus-308989:5281700")

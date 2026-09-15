@@ -11,7 +11,6 @@ import net.chixozhmix.combat_skills.api.skills.SkillAnimations;
 import net.chixozhmix.combat_skills.registry.CsMobEffectRegistry;
 import net.chixozhmix.combat_skills.registry.CsSchoolRegistry;
 import net.chixozhmix.combat_skills.registry.CsSoundRegistry;
-import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.ResourceLocation;

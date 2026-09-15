@@ -18,6 +18,8 @@ public class CsTags {
     public static final TagKey<Item> MACES = ItemTags.create(new ResourceLocation(CombatSkills.MODID, "maces"));
     public static final TagKey<Item> STAFFS = ItemTags.create(new ResourceLocation(CombatSkills.MODID, "staffs"));
     public static final TagKey<Item> SCYTHE = ItemTags.create(new ResourceLocation(CombatSkills.MODID, "scythes"));
+    public static final TagKey<Item> SWORDS = ItemTags.create(new ResourceLocation(CombatSkills.MODID, "swords"));
+    public static final TagKey<Item> AXES = ItemTags.create(new ResourceLocation(CombatSkills.MODID, "axes"));
 
     public static final TagKey<Item> BOWS = ItemTags.create(new ResourceLocation(CombatSkills.MODID, "bows"));
     public static final TagKey<Item> SHIELDS = ItemTags.create(new ResourceLocation(CombatSkills.MODID, "shields"));

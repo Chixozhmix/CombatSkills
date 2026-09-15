@@ -7,6 +7,8 @@
 
   "tooltip.combat_skills.stamina_cost_per_second": "Stamina/sec: %d",
 
+  "tooltip.combat_skills.skill_type": "Skill Type: %s",
+
   "attribute.combat_skills.sword_magic_resist": "Sword Resist",
   "attribute.combat_skills.sword_spell_power": "Sword Skill Power",
   "attribute.combat_skills.skill_power": "Skill Power",

@@ -1,5 +1,6 @@
 package net.chixozhmix.combat_skills.effect;
 
+import net.chixozhmix.chilib.attributes.ChiAttributes;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -15,7 +16,7 @@ public class RageEffect extends MobEffect {
         this.addAttributeModifier(Attributes.ATTACK_SPEED, "1d18a2a1-6b1f-11ae-4c90-0322bc101011", 0.2, AttributeModifier.Operation.MULTIPLY_BASE);
         this.addAttributeModifier(Attributes.ATTACK_KNOCKBACK, "1d18a2a1-6b1f-11ae-4c90-1322bc101101", 0.2, AttributeModifier.Operation.MULTIPLY_BASE);
         this.addAttributeModifier(Attributes.ATTACK_DAMAGE, "1d18a2a1-6b1f-11ae-4c91-0322bc101101", 0.15, AttributeModifier.Operation.MULTIPLY_BASE);
-        //this.addAttributeModifier(AttributesMod.JUMP, "1d18a2a1-6b1f-11ae-4c90-0322bc101101", 0.5, AttributeModifier.Operation.MULTIPLY_BASE);
+        this.addAttributeModifier(ChiAttributes.JUMP.get(), "1d18a2a1-6b1f-11ae-4c90-0322bc101101", 0.5, AttributeModifier.Operation.MULTIPLY_BASE);
         this.addAttributeModifier(Attributes.MOVEMENT_SPEED, "1d18a2a1-6b1f-11ae-4c80-0322bc101101", 0.1, AttributeModifier.Operation.MULTIPLY_BASE);
     }
 

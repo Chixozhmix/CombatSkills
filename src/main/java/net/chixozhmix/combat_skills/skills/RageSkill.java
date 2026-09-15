@@ -37,7 +37,7 @@ public class RageSkill extends AbstractCombatSkill {
             .setMinRarity(SpellRarity.UNCOMMON)
             .setSchoolResource(CsSchoolRegistry.SWORD_RESOURCE)
             .setMaxLevel(3)
-            .setCooldownSeconds(90)
+            .setCooldownSeconds(120)
             .build();
 
     public RageSkill() {
