@@ -1,8 +1,10 @@
 {
   "replace": false,
   "values": [
-    "irons_spellbooks:decrepit_scythe",
-
+    {
+      "id": "irons_spellbooks:decrepit_scythe",
+      "required": false
+    },
     {
       "id": "spartanweaponry:wooden_scythe",
       "required": false
@@ -69,6 +71,38 @@
     },
     {
       "id": "spartanweaponry:aluminum_scythe",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_scythe",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_scythe",
+      "required": false
+    },
+    {
+      "id": "eidolon:deathbringer_scythe",
+      "required": false
+    },
+    {
+      "id": "eidolon:reaper_scythe",
+      "required": false
+    },
+    {
+      "id": "traveloptics:abyssal_tidecaller",
+      "required": false
+    },
+    {
+      "id": "traveloptics:voidstrike_reaper",
+      "required": false
+    },
+    {
+      "id": "traveloptics:stellothorn",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:hellrazor",
       "required": false
     }
   ]

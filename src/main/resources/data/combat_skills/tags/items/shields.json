@@ -1,6 +1,65 @@
 {
   "replace": false,
   "values": [
-    "minecraft:shield"
+    {
+      "id": "minecraft:shield",
+      "required": false
+    },
+    {
+      "id": "cataclysm:azure_sea_shield",
+      "required": false
+    },
+    {
+      "id": "cataclysm:bulwark_of_the_flame",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_targe",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:enhanced_shield",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:ice_gauntlet",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:dragon_guard_shield",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:skelewag_sword",
+      "required": false
+    },
+    {
+      "id": "species:ricoshield",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:corrupted_shield",
+      "required": false
+    },
+    {
+      "id": "multiverse:warp_shield",
+      "required": false
+    },
+    {
+      "id": "biomancy:thorn_shield",
+      "required": false
+    },
+    {
+      "id": "artifacts:umbrella",
+      "required": false
+    },
+    {
+      "id": "alexscaves:resistor_shield",
+      "required": false
+    },
+    {
+      "id": "goblins_tyranny:goblin_shield",
+      "required": false
+    }
   ]
 }

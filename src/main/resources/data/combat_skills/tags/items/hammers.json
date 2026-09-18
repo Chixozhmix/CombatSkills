@@ -69,8 +69,14 @@
       "id": "spartanweaponry:aluminum_battle_hammer",
       "required": false
     },
-
-
+    {
+      "id": "spartanweaponry:stone_battle_hammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_battle_hammer",
+      "required": false
+    },
     {
       "id": "spartanweaponry:wooden_warhammer",
       "required": false
@@ -137,6 +143,46 @@
     },
     {
       "id": "spartanweaponry:aluminum_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_warhammer",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_warhammer",
+      "required": false
+    },
+    {
+      "id": "cataclysm:void_forge",
+      "required": false
+    },
+    {
+      "id": "cataclysm:infernal_forge",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ceraunus",
+      "required": false
+    },
+    {
+      "id": "cataclysm:brontes",
+      "required": false
+    },
+    {
+      "id": "goblins_tyranny:goblin_upgraded_mace",
+      "required": false
+    },
+    {
+      "id": "goblins_tyranny:goblin_mace",
+      "required": false
+    },
+    {
+      "id": "handcrafted:hammer",
+      "required": false
+    },
+    {
+      "id": "traveloptics:galenic_polarizer",
       "required": false
     }
   ]

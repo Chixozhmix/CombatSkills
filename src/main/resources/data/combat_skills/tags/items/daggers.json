@@ -69,8 +69,14 @@
       "id": "spartanweaponry:aluminum_dagger",
       "required": false
     },
-
-
+    {
+      "id": "spartanweaponry:stone_dagger",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_dagger",
+      "required": false
+    },
     {
       "id": "spartanweaponry:wooden_throwing_knife",
       "required": false
@@ -139,8 +145,14 @@
       "id": "spartanweaponry:aluminum_throwing_knife",
       "required": false
     },
-
-
+    {
+      "id": "spartanweaponry:stone_throwing_knife",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_throwing_knife",
+      "required": false
+    },
     {
       "id": "spartanweaponry:wooden_parrying_dagger",
       "required": false
@@ -207,6 +219,110 @@
     },
     {
       "id": "spartanweaponry:aluminum_parrying_dagger",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_parrying_dagger",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_parrying_dagger",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:flint_knife",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:iron_knife",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:diamond_knife",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:golden_knife",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:netherite_knife",
+      "required": false
+    },
+    {
+      "id": "eidolon:athame",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:corrupted_blade",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:naga_fang_dagger",
+      "required": false
+    },
+    {
+      "id": "scguns:anthralite_knife",
+      "required": false
+    },
+    {
+      "id": "scguns:iron_bayonet",
+      "required": false
+    },
+    {
+      "id": "scguns:anthralite_bayonet",
+      "required": false
+    },
+    {
+      "id": "scguns:diamond_bayonet",
+      "required": false
+    },
+    {
+      "id": "scguns:netherite_bayonet",
+      "required": false
+    },
+    {
+      "id": "dnmmod:ritual_dagger",
+      "required": false
+    },
+    {
+      "id": "alexscaves:desolate_dagger",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "aquaculture:diamond_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "aquaculture:gold_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "aquaculture:iron_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "aquaculture:stone_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "aquaculture:wooden_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:dagger",
+      "required": false
+    },
+    {
+      "id": "botania:ender_dagger",
+      "required": false
+    },
+    {
+      "id": "cataclysm:athame",
       "required": false
     }
   ]

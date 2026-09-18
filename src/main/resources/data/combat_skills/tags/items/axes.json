@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
+    "minecraft:wooden_axe",
+    "minecraft:stone_axe",
+    "minecraft:golden_axe",
+    "minecraft:iron_axe",
+    "minecraft:diamond_axe",
+    "minecraft:netherite_axe",
+
     {
       "id": "spartanweaponry:wooden_halberd",
       "required": false
@@ -69,8 +76,14 @@
       "id": "spartanweaponry:aluminum_halberd",
       "required": false
     },
-
-
+    {
+      "id": "spartanweaponry:stone_halberd",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_halberd",
+      "required": false
+    },
     {
       "id": "spartanweaponry:wooden_tomahawk",
       "required": false
@@ -139,8 +152,14 @@
       "id": "spartanweaponry:aluminum_tomahawk",
       "required": false
     },
-
-
+    {
+      "id": "spartanweaponry:stone_tomahawk",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_tomahawk",
+      "required": false
+    },
     {
       "id": "spartanweaponry:wooden_battleaxe",
       "required": false
@@ -207,6 +226,82 @@
     },
     {
       "id": "spartanweaponry:aluminum_battleaxe",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_battleaxe",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_battleaxe",
+      "required": false
+    },
+    {
+      "id": "multiverse:prismatic_axe",
+      "required": false
+    },
+    {
+      "id": "multiverse:kaleidite_axe",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:wrought_axe",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:legionnaire_warlock_axe",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:devastator",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:provocation",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:o_fortuna",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:ravens_bane",
+      "required": false
+    },
+    {
+      "id": "goblins_tyranny:goblin_axe",
+      "required": false
+    },
+    {
+      "id": "gnumus:hammer_vintage_universal_tool",
+      "required": false
+    },
+    {
+      "id": "eidolon:cleaving_axe",
+      "required": false
+    },
+    {
+      "id": "eidolon:silver_axe",
+      "required": false
+    },
+    {
+      "id": "cataclysm:soul_render",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_axe",
+      "required": false
+    },
+    {
+      "id": "cataclysm:coral_bardiche",
+      "required": false
+    },
+    {
+      "id": "majruszsdifficulty:enderium_axe",
+      "required": false
+    },
+    {
+      "id": "scguns:war_axe",
       "required": false
     }
   ]

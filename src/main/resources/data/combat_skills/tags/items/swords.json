@@ -8,7 +8,6 @@
     "minecraft:diamond_sword",
     "minecraft:netherite_sword",
 
-
     {
       "id": "spartanweaponry:wooden_longsword",
       "required": false
@@ -77,8 +76,6 @@
       "id": "spartanweaponry:aluminum_longsword",
       "required": false
     },
-
-
     {
       "id": "spartanweaponry:wooden_greatsword",
       "required": false
@@ -147,8 +144,6 @@
       "id": "spartanweaponry:aluminum_greatsword",
       "required": false
     },
-
-
     {
       "id": "spartanweaponry:wooden_katana",
       "required": false
@@ -217,8 +212,6 @@
       "id": "spartanweaponry:aluminum_katana",
       "required": false
     },
-
-
     {
       "id": "spartanweaponry:wooden_rapier",
       "required": false
@@ -287,8 +280,6 @@
       "id": "spartanweaponry:aluminum_rapier",
       "required": false
     },
-
-
     {
       "id": "spartanweaponry:wooden_saber",
       "required": false
@@ -355,6 +346,170 @@
     },
     {
       "id": "spartanweaponry:aluminum_saber",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_longsword",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_longsword",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_greatsword",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_greatsword",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_katana",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_katana",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_rapier",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_rapier",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_saber",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_saber",
+      "required": false
+    },
+    {
+      "id": "arcanists_equipage:arcane_claymore",
+      "required": false
+    },
+    {
+      "id": "arcanists_equipage:arcane_steel_claymore",
+      "required": false
+    },
+    {
+      "id": "species:spectralibur",
+      "required": false
+    },
+    {
+      "id": "savage_and_ravage:cleaver_of_beheading",
+      "required": false
+    },
+    {
+      "id": "refined_mod:summer_rain_sword",
+      "required": false
+    },
+    {
+      "id": "refined_mod:flame_tongue_sword",
+      "required": false
+    },
+    {
+      "id": "create:cardboard_sword",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sharpened_candy_cane",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:fireblossom_rapier",
+      "required": false
+    },
+    {
+      "id": "goblins_tyranny:goblin_sword",
+      "required": false
+    },
+    {
+      "id": "gnumus:vintage_gnumus_cutlass",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:draconic_splitter",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:ionic_splitter",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:provocation",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:excalibur",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:the_devourer",
+      "required": false
+    },
+    {
+      "id": "biomancy:ravenous_claws",
+      "required": false
+    },
+    {
+      "id": "biomancy:caustic_gunblade",
+      "required": false
+    },
+    {
+      "id": "majruszsdifficulty:wither_sword",
+      "required": false
+    },
+    {
+      "id": "majruszsdifficulty:enderium_sword",
+      "required": false
+    },
+    {
+      "id": "gnumus:gnumus_cutlass",
+      "required": false
+    },
+    {
+      "id": "eidolon:sapping_sword",
+      "required": false
+    },
+    {
+      "id": "eidolon:silver_sword",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_incinerator",
+      "required": false
+    },
+    {
+      "id": "cataclysm:khopesh",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_sword",
+      "required": false
+    },
+    {
+      "id": "dnmmod:bladesinger_sword",
+      "required": false
+    },
+    {
+      "id": "traveloptics:harbingers_wrath",
+      "required": false
+    },
+    {
+      "id": "traveloptics:flames_of_eldritch",
+      "required": false
+    },
+    {
+      "id": "traveloptics:mechanized_wraithblade",
+      "required": false
+    },
+    {
+      "id": "traveloptics:cursed_wraithblade",
       "required": false
     }
   ]

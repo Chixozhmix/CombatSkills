@@ -1,11 +1,30 @@
 {
   "replace": false,
   "values": [
-    "irons_spellbooks:blood_staff",
-    "irons_spellbooks:graybeard_staff",
-    "irons_spellbooks:ice_staff",
-    "irons_spellbooks:pyrium_staff",
-
+    {
+      "id": "irons_spellbooks:blood_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:graybeard_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyrium_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:artificer_cane",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:lightning_rod",
+      "required": false
+    },
     {
       "id": "spartanweaponry:wooden_quarterstaff",
       "required": false
@@ -72,6 +91,70 @@
     },
     {
       "id": "spartanweaponry:aluminum_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:enderconic_scepter",
+      "required": false
+    },
+    {
+      "id": "gtbcs_geomancy_plus:the_stonecaller",
+      "required": false
+    },
+    {
+      "id": "traveloptics:titanlord_scepter_tectonic",
+      "required": false
+    },
+    {
+      "id": "traveloptics:titanlord_scepter_retro",
+      "required": false
+    },
+    {
+      "id": "traveloptics:titanlord_scepter",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:insania_aeternus",
+      "required": false
+    },
+    {
+      "id": "dnmmod:tainted_staff",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sea_staff",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sugar_staff",
+      "required": false
+    },
+    {
+      "id": "traveloptics:wand_of_final_light",
+      "required": false
+    },
+    {
+      "id": "traveloptics:staff_of_the_storm_empress",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:blossom_of_the_enchantress",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:divine_scepter",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:grimoire_staff",
       "required": false
     }
   ]

@@ -69,8 +69,14 @@
       "id": "spartanweaponry:aluminum_spear",
       "required": false
     },
-
-
+    {
+      "id": "spartanweaponry:stone_spear",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_spear",
+      "required": false
+    },
     {
       "id": "spartanweaponry:wooden_pike",
       "required": false
@@ -139,8 +145,14 @@
       "id": "spartanweaponry:aluminum_pike",
       "required": false
     },
-
-
+    {
+      "id": "spartanweaponry:stone_pike",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_pike",
+      "required": false
+    },
     {
       "id": "spartanweaponry:wooden_lance",
       "required": false
@@ -209,8 +221,14 @@
       "id": "spartanweaponry:aluminum_lance",
       "required": false
     },
-
-
+    {
+      "id": "spartanweaponry:stone_lance",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_lance",
+      "required": false
+    },
     {
       "id": "spartanweaponry:wooden_glaive",
       "required": false
@@ -279,8 +297,14 @@
       "id": "spartanweaponry:aluminum_glaive",
       "required": false
     },
-
-
+    {
+      "id": "spartanweaponry:stone_glaive",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_glaive",
+      "required": false
+    },
     {
       "id": "spartanweaponry:wooden_javelin",
       "required": false
@@ -347,6 +371,94 @@
     },
     {
       "id": "spartanweaponry:aluminum_javelin",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_javelin",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_javelin",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:earthdive_spear",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:kraken_trident",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:twilight_gale",
+      "required": false
+    },
+    {
+      "id": "alexscaves:ortholance",
+      "required": false
+    },
+    {
+      "id": "alexscaves:frostmint_spear",
+      "required": false
+    },
+    {
+      "id": "alexscaves:limestone_spear",
+      "required": false
+    },
+    {
+      "id": "alexscaves:extinction_spear",
+      "required": false
+    },
+    {
+      "id": "traveloptics:trident_of_the_eternal_maelstrom",
+      "required": false
+    },
+    {
+      "id": "traveloptics:charged_sands",
+      "required": false
+    },
+    {
+      "id": "traveloptics:scourge_of_the_sands",
+      "required": false
+    },
+    {
+      "id": "traveloptics:thorns_of_oblivion",
+      "required": false
+    },
+    {
+      "id": "goblins_tyranny:goblin_spear",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:ice_pike",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:devastator",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:umbranova",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:spear",
+      "required": false
+    },
+    {
+      "id": "cataclysm:astrape",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ancient_spear",
+      "required": false
+    },
+    {
+      "id": "cataclysm:coral_spear",
+      "required": false
+    },
+    {
+      "id": "minecraft:trident",
       "required": false
     }
   ]

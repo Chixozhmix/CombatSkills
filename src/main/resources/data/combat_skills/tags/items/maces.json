@@ -68,6 +68,50 @@
     {
       "id": "spartanweaponry:aluminum_flanged_mace",
       "required": false
+    },
+    {
+      "id": "spartanweaponry:stone_flanged_mace",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:copper_flanged_mace",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:studded_club",
+      "required": false
+    },
+    {
+      "id": "spartanweaponry:wooden_club",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ceraunus",
+      "required": false
+    },
+    {
+      "id": "alexscaves:primitive_club",
+      "required": false
+    },
+    {
+      "id": "scguns:cog_mace",
+      "required": false
+    },
+    {
+      "id": "traveloptics:the_obliterator",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:skillet",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_immolator",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_annihilator",
+      "required": false
     }
   ]
 }
