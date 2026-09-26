@@ -156,6 +156,71 @@
     {
       "id": "hazennstuff:grimoire_staff",
       "required": false
+    },
+
+    {
+      "id": "botania:terraform_rod",
+      "required": false
+    },
+    {
+      "id": "botania:cobble_rod",
+      "required": false
+    },
+    {
+      "id": "botania:water_rod",
+      "required": false
+    },
+    {
+      "id": "botania:tornado_rod",
+      "required": false
+    },
+    {
+      "id": "botania:fire_rod",
+      "required": false
+    },
+    {
+      "id": "botania:divining_rod",
+      "required": false
+    },
+    {
+      "id": "botania:smelt_rod",
+      "required": false
+    },
+    {
+      "id": "botania:exchange_rod",
+      "required": false
+    },
+    {
+      "id": "botania:rainbow_rod",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:sculptor_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:hither_thither_wand",
+      "required": false
+    },
+    {
+      "id": "botania:missile_rod",
+      "required": false
+    },
+    {
+      "id": "botania:gravity_rod",
+      "required": false
+    },
+    {
+      "id": "savage_and_ravage:wand_of_freezing",
+      "required": false
+    },
+    {
+      "id": "botania:dirt_rod",
+      "required": false
+    },
+    {
+      "id": "botania:skydirt_rod",
+      "required": false
     }
   ]
 }

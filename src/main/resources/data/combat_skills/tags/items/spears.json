@@ -460,6 +460,15 @@
     {
       "id": "minecraft:trident",
       "required": false
+    },
+
+    {
+      "id": "fangs_n_claws:hellfire_pitchfork",
+      "required": false
+    },
+    {
+      "id": "fangs_n_claws:fire_pitchfork",
+      "required": false
     }
   ]
 }

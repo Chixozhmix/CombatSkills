@@ -112,6 +112,11 @@
     {
       "id": "cataclysm:the_annihilator",
       "required": false
+    },
+
+    {
+      "id": "supplementaries:wrench",
+      "required": false
     }
   ]
 }

@@ -324,6 +324,19 @@
     {
       "id": "cataclysm:athame",
       "required": false
+    },
+
+    {
+      "id": "caverns_and_chasms:kunai",
+      "required": false
+    },
+    {
+      "id": "fangs_n_claws:netherite_dagger",
+      "required": false
+    },
+    {
+      "id": "fangs_n_claws:fang_dagger",
+      "required": false
     }
   ]
 }

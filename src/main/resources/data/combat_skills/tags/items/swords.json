@@ -511,6 +511,87 @@
     {
       "id": "traveloptics:cursed_wraithblade",
       "required": false
+    },
+
+    {
+      "id": "botania:terra_sword",
+      "required": false
+    },
+    {
+      "id": "botania:thunder_sword",
+      "required": false
+    },
+    {
+      "id": "botania:star_sword",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:pirate_saber",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:knight_sword",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:warrior_sword",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:large_sword",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_sword",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:copper_sword",
+      "required": false
+    },
+    {
+      "id": "scguns:anthralite_sword",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:magehunter",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:spellbreaker",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:amethyst_rapier",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:boreal_blade",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:keeper_flamberge",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:legionnaire_flamberge",
+      "required": false
+    },
+    {
+      "id": "fangs_n_claws:silver_sword",
+      "required": false
+    },
+    {
+      "id": "biomancy:despoil_sickle",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_sword",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_sword",
+      "required": false
     }
   ]
 }

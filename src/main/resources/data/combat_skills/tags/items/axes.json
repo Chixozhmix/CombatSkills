@@ -303,6 +303,35 @@
     {
       "id": "scguns:war_axe",
       "required": false
+    },
+
+    {
+      "id": "caverns_and_chasms:copper_axe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_axe",
+      "required": false
+    },
+    {
+      "id": "botania:terra_axe",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_axe",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_axe",
+      "required": false
+    },
+    {
+      "id": "scguns:anthralite_axe",
+      "required": false
+    },
+    {
+      "id": "fangs_n_claws:tomahawk",
+      "required": false
     }
   ]
 }

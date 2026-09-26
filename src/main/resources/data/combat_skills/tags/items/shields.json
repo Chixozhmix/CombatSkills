@@ -60,6 +60,11 @@
     {
       "id": "goblins_tyranny:goblin_shield",
       "required": false
+    },
+
+    {
+      "id": "caverns_and_chasms:aegis",
+      "required": false
     }
   ]
 }
