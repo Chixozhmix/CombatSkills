@@ -29,6 +29,7 @@ public class CsSpellRegistry {
     public static final RegistryObject<AbstractSpell> PARRY = registerSpell(new ParrySkill());
     public static final RegistryObject<AbstractSpell> SHIELD_STRIKE = registerSpell(new ShieldStrikeSkill());
     public static final RegistryObject<AbstractSpell> RAM = registerSpell(new RamSkill());
+    public static final RegistryObject<AbstractSpell> SLICING_VORTEX = registerSpell(new SlicingVortexSkill());
 
 
 }

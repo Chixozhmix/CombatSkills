@@ -1,15 +1,20 @@
 package net.chixozhmix.combat_skills.events;
 
 import net.chixozhmix.combat_skills.CombatSkills;
+import net.chixozhmix.combat_skills.registry.CsMobEffectRegistry;
 import net.chixozhmix.combat_skills.util.CsTags;
 import net.minecraft.ChatFormatting;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.model.EntityModel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RenderLivingEvent;
 import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -32,6 +37,18 @@ public class ClientEvent {
         else if(stack.is(CsTags.SHIELDS)) event.getToolTip().add(getTagName(CsTags.SHIELDS));
         else if(stack.is(CsTags.BOWS)) event.getToolTip().add(getTagName(CsTags.BOWS));
 
+    }
+
+    @SubscribeEvent
+    public static void beforeLivingRender(RenderLivingEvent.Pre<? extends LivingEntity, ? extends EntityModel<? extends LivingEntity>> event) {
+        var player = Minecraft.getInstance().player;
+        if (player == null)
+            return;
+
+        var livingEntity = event.getEntity();
+        if (livingEntity.hasEffect(CsMobEffectRegistry.SLICING_VORTEX.get()) && livingEntity.isInvisibleTo(player)) {
+            event.setCanceled(true);
+        }
     }
 
     private static MutableComponent getTagName(TagKey<Item> tag) {

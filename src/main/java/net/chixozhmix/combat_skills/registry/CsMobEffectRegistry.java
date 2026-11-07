@@ -1,5 +1,6 @@
 package net.chixozhmix.combat_skills.registry;
 
+import net.chixozhmix.chilib.registers.CLMobEffect;
 import net.chixozhmix.combat_skills.CombatSkills;
 import net.chixozhmix.combat_skills.effect.*;
 import net.minecraft.core.registries.Registries;
@@ -26,6 +27,8 @@ public class CsMobEffectRegistry {
             () -> new InstantStaminaEffect(MobEffectCategory.BENEFICIAL, 0xF0AE4D));
     public static final RegistryObject<MobEffect> STUNNING = MOB_EFFECT_DEFERRED_REGISTER.register("stunning",
             () -> new StuningEffect());
+    public static final RegistryObject<MobEffect> SLICING_VORTEX = MOB_EFFECT_DEFERRED_REGISTER.register("slicing_vortex",
+            () -> new CLMobEffect.SimpleEffect(MobEffectCategory.BENEFICIAL, 0xC4C4C4));
 
     public static final RegistryObject<MobEffect> RAGE_EFFECT = MOB_EFFECT_DEFERRED_REGISTER.register("rage_effect", RageEffect::new);
 

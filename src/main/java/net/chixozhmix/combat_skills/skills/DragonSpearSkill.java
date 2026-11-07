@@ -83,7 +83,7 @@ public class DragonSpearSkill extends AbstractCombatSkill {
     @Override
     public List<MutableComponent> getUniqueInfo(int spellLevel, LivingEntity caster) {
         return List.of(Component.translatable("ui.irons_spellbooks.damage", getDamageText(spellLevel, caster)),
-                Component.translatable("ui.combat_skills.skill_component", getTagNames(CsTags.SPEARS)).withStyle(ChatFormatting.GOLD)
+                Component.translatable("ui.combat_skills.skill_component", getTagNames(CsTags.SPEARS, CsTags.STAFFS)).withStyle(ChatFormatting.GOLD)
         );
     }
 
@@ -98,7 +98,7 @@ public class DragonSpearSkill extends AbstractCombatSkill {
 
     @Override
     public boolean checkPreCastConditions(Level level, int spellLevel, LivingEntity entity, MagicData playerMagicData) {
-        if (SkillUtils.holdItem(entity, CsTags.SPEARS)) {
+        if (SkillUtils.holdItem(entity, CsTags.SPEARS) || SkillUtils.holdItem(entity, CsTags.STAFFS)) {
             return true;
         }
 

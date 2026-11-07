@@ -21,6 +21,8 @@
   "combat_skills.maces": "Maces",
   "combat_skills.staffs": "Staffs",
   "combat_skills.scythes": "Scythes",
+  "combat_skills.swords": "Swords",
+  "combat_skills.axes": "Axes",
 
   "combat_skills.bows": "Bows",
   "combat_skills.shields": "Shields",
@@ -85,5 +87,8 @@
   "spell.combat_skills.shield_strike.guide": "Hit the enemy with your shield to slow him down and stun him with a small chance.",
 
   "spell.combat_skills.ram_skill": "Ram",
-  "spell.combat_skills.ram_skill.guide": "Break through hordes of enemies."
+  "spell.combat_skills.ram_skill.guide": "Break through hordes of enemies.",
+
+  "spell.combat_skills.slicing_vortex": "Slicing Vortex",
+  "spell.combat_skills.slicing_vortex.guide": "You spin in a deadly whirlwind, shredding the enemies around you."
 }

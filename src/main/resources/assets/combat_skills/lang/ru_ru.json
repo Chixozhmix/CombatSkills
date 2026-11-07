@@ -85,5 +85,8 @@
   "spell.combat_skills.shield_strike.guide": "Ударьте врага щитом, чтобы замедлить его и с небольшим шансом оглушить.",
 
   "spell.combat_skills.ram_skill": "Таран",
-  "spell.combat_skills.ram_skill.guide": "Пробивайтесь через толпы врагов."
+  "spell.combat_skills.ram_skill.guide": "Пробивайтесь через толпы врагов.",
+
+  "spell.combat_skills.slicing_vortex": "Кромсающий Вихрь",
+  "spell.combat_skills.slicing_vortex.guide": "Вы закручиваетесь в смертоносном вихре, кромсая врагов вокруг."
 }

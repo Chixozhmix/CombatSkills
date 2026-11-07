@@ -2,6 +2,7 @@ package net.chixozhmix.combat_skills.registry;
 import net.chixozhmix.combat_skills.CombatSkills;
 import net.chixozhmix.combat_skills.entity.DamageAoe;
 import net.chixozhmix.combat_skills.entity.DragonSpearQuakeEntity;
+import net.chixozhmix.combat_skills.entity.slicing_vortex.SlicingVortexEntity;
 import net.chixozhmix.combat_skills.entity.sword_aura.SwordAuraProjectile;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -35,4 +36,10 @@ public class CsEntityRegistry {
                     .sized(4f, .8f)
                     .clientTrackingRange(64)
                     .build(new ResourceLocation(CombatSkills.MODID, "dragon_spear_aoe").toString()));
+
+    public static final RegistryObject<EntityType<SlicingVortexEntity>> SLICING_VORTEX_ENTITY =
+            ENTITIES.register("slicing_votrex_entity", () -> EntityType.Builder.<SlicingVortexEntity>of(SlicingVortexEntity::new, MobCategory.MISC)
+                    .sized(1.0f, SlicingVortexEntity.HEIGHT)
+                    .clientTrackingRange(32)
+                    .build("slicing_votrex_entity"));
 }
