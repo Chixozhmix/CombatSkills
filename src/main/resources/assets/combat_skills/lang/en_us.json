@@ -3,7 +3,7 @@
   "ui.combat_skills.skill_component": "Required: %s",
   "ui.combat_skills.no_component": "No required weapon",
   "ui.combat_skills.stamina_cost": " Stamina Cost: %d",
-  "ui.combat_scills.no_cast": "In rage you cannot cast spells",
+  "ui.combat_scills.no_cast": "You can't cast spells now",
 
   "tooltip.combat_skills.stamina_cost_per_second": "Stamina/sec: %d",
 

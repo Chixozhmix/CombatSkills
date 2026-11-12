@@ -1,6 +1,7 @@
 package net.chixozhmix.combat_skills.entity.slicing_vortex;
 
 import io.redspace.ironsspellbooks.damage.DamageSources;
+import io.redspace.ironsspellbooks.entity.mobs.IAnimatedAttacker;
 import io.redspace.ironsspellbooks.entity.spells.AoeEntity;
 import net.chixozhmix.combat_skills.registry.CsSpellRegistry;
 import net.minecraft.core.particles.ParticleOptions;
@@ -24,6 +25,7 @@ import java.util.Optional;
 
 public class SlicingVortexEntity extends AoeEntity implements GeoEntity {
     private static final EntityDataAccessor<Boolean> DATA_IS_ANIMATING_RISE = SynchedEntityData.defineId(SlicingVortexEntity.class, EntityDataSerializers.BOOLEAN);
+    private static final EntityDataAccessor<Boolean> DATA_IS_ANIMATING_DISCARD = SynchedEntityData.defineId(SlicingVortexEntity.class, EntityDataSerializers.BOOLEAN);
     public static final float HEIGHT = 3f;
 
     private static final RawAnimation RISE_ANIM = RawAnimation.begin().thenPlay("spawn");
@@ -32,8 +34,10 @@ public class SlicingVortexEntity extends AoeEntity implements GeoEntity {
 
     private final AnimatableInstanceCache cache  = GeckoLibUtil.createInstanceCache(this);
     private int riseAnimTime;
+    private int discardAnimTime;
 
     private final AnimationController<SlicingVortexEntity> riseController;
+    private final AnimationController<SlicingVortexEntity> discardController;
     private final AnimationController<SlicingVortexEntity> vortexController;
 
     public SlicingVortexEntity(EntityType<? extends Projectile> pEntityType, Level pLevel) {
@@ -42,6 +46,7 @@ public class SlicingVortexEntity extends AoeEntity implements GeoEntity {
         this.riseAnimTime = 15;
 
         this.riseController = new AnimationController<>(this, "rise", 0, this::risePredicate);
+        this.discardController = new AnimationController<>(this, "discard", 0, this::discardPredicate);
         this.vortexController = new AnimationController<>(this, "vortex", 0, this::vortexPredicate);
 
         triggerRiseAnimation();
@@ -55,6 +60,18 @@ public class SlicingVortexEntity extends AoeEntity implements GeoEntity {
         this.entityData.set(DATA_IS_ANIMATING_RISE, true);
     }
 
+    public boolean isAnimatingDiscard() {
+        return this.entityData.get(DATA_IS_ANIMATING_DISCARD);
+    }
+
+    public void triggerDespawnAnimation() {
+        if (this.isAnimatingDiscard())
+            return;
+
+        this.entityData.set(DATA_IS_ANIMATING_DISCARD, true);
+        this.discardAnimTime = 15;
+    }
+
     private PlayState risePredicate(AnimationState<SlicingVortexEntity> state) {
         if (!this.isAnimatingRise()) {
             return PlayState.STOP;
@@ -62,6 +79,18 @@ public class SlicingVortexEntity extends AoeEntity implements GeoEntity {
 
         if (state.getController().getAnimationState() == AnimationController.State.STOPPED) {
             state.getController().setAnimation(RISE_ANIM);
+        }
+
+        return PlayState.CONTINUE;
+    }
+
+    private PlayState discardPredicate(AnimationState<SlicingVortexEntity> state) {
+        if (!this.isAnimatingDiscard()) {
+            return PlayState.STOP;
+        }
+
+        if (state.getController().getAnimationState() == AnimationController.State.STOPPED) {
+            state.getController().setAnimation(DESPAWN_ANIM);
         }
 
         return PlayState.CONTINUE;
@@ -81,6 +110,7 @@ public class SlicingVortexEntity extends AoeEntity implements GeoEntity {
     protected void defineSynchedData() {
         super.defineSynchedData();
         this.entityData.define(DATA_IS_ANIMATING_RISE, false);
+        this.entityData.define(DATA_IS_ANIMATING_DISCARD, false);
     }
 
     @Override
@@ -102,8 +132,16 @@ public class SlicingVortexEntity extends AoeEntity implements GeoEntity {
     public void tick() {
         Entity owner = this.getOwner();
 
-        if(owner == null || !owner.isAlive()) {
-            this.discard();
+        if(this.isAnimatingDiscard()) {
+            if(--this.discardAnimTime <= 0) {
+                this.entityData.set(DATA_IS_ANIMATING_DISCARD, false);
+                this.discard();
+            }
+            return;
+        }
+
+        if (owner == null || !owner.isAlive() || this.tickCount >= 185) {
+            this.triggerDespawnAnimation();
             return;
         }
 
@@ -146,6 +184,7 @@ public class SlicingVortexEntity extends AoeEntity implements GeoEntity {
     public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
         controllerRegistrar.add(vortexController);
         controllerRegistrar.add(riseController);
+        controllerRegistrar.add(discardController);
     }
 
     @Override

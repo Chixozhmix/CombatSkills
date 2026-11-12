@@ -16,7 +16,8 @@ public class SpellEvents {
     public static void cast(SpellPreCastEvent event) {
         LivingEntity entity = event.getEntity();
 
-        if(entity.hasEffect(CsMobEffectRegistry.RAGE_EFFECT.get()) && event.getSchoolType() != CsSchoolRegistry.SWORD.get()) {
+        if((entity.hasEffect(CsMobEffectRegistry.RAGE_EFFECT.get()) && event.getSchoolType() != CsSchoolRegistry.SWORD.get())
+        || entity.hasEffect(CsMobEffectRegistry.SLICING_VORTEX.get())) {
             event.setCanceled(true);
 
             if(entity instanceof Player player) {

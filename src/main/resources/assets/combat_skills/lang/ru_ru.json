@@ -3,7 +3,7 @@
   "ui.combat_skills.skill_component": "Требуется: %s",
   "ui.combat_skills.no_component": "Требуемое оружие отсутствует",
   "ui.combat_skills.stamina_cost": " Расход выносливости: %d",
-  "ui.combat_scills.no_cast": "В ярости нельзя использовать заклинания",
+  "ui.combat_scills.no_cast": "Вы не можете использовать заклинания сейчас",
 
   "tooltip.combat_skills.stamina_cost_per_second": "Выносливость/сек: %d",
 
