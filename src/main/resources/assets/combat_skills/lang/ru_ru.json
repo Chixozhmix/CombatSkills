@@ -88,5 +88,8 @@
   "spell.combat_skills.ram_skill.guide": "Пробивайтесь через толпы врагов.",
 
   "spell.combat_skills.slicing_vortex": "Кромсающий Вихрь",
-  "spell.combat_skills.slicing_vortex.guide": "Вы закручиваетесь в смертоносном вихре, кромсая врагов вокруг."
+  "spell.combat_skills.slicing_vortex.guide": "Вы закручиваетесь в смертоносном вихре, кромсая врагов вокруг.",
+
+  "spell.combat_skills.world_crusher": "Разрушитель Мира",
+  "spell.combat_skills.world_crusher.guide": "Сила вашего удара разрушает все вокруг, оглушая и отбрасывая врагов."
 }

@@ -25,11 +25,9 @@ public class CsMobEffectRegistry {
     public static final RegistryObject<MobEffect> PARRY_EFFECT = MOB_EFFECT_DEFERRED_REGISTER.register("parry_effect", ParryEffect::new);
     public static final RegistryObject<MobEffect> INSTANT_STAMINA = MOB_EFFECT_DEFERRED_REGISTER.register("instant_stamina",
             () -> new InstantStaminaEffect(MobEffectCategory.BENEFICIAL, 0xF0AE4D));
-    public static final RegistryObject<MobEffect> STUNNING = MOB_EFFECT_DEFERRED_REGISTER.register("stunning",
-            () -> new StuningEffect());
+    public static final RegistryObject<MobEffect> STUNNING = MOB_EFFECT_DEFERRED_REGISTER.register("stunning", StuningEffect::new);
     public static final RegistryObject<MobEffect> SLICING_VORTEX = MOB_EFFECT_DEFERRED_REGISTER.register("slicing_vortex",
             () -> new CLMobEffect.SimpleEffect(MobEffectCategory.BENEFICIAL, 0xC4C4C4));
-
     public static final RegistryObject<MobEffect> RAGE_EFFECT = MOB_EFFECT_DEFERRED_REGISTER.register("rage_effect", RageEffect::new);
 
 

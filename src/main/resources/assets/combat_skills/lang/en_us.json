@@ -90,5 +90,8 @@
   "spell.combat_skills.ram_skill.guide": "Break through hordes of enemies.",
 
   "spell.combat_skills.slicing_vortex": "Slicing Vortex",
-  "spell.combat_skills.slicing_vortex.guide": "You spin in a deadly whirlwind, shredding the enemies around you."
+  "spell.combat_skills.slicing_vortex.guide": "You spin in a deadly whirlwind, shredding the enemies around you.",
+
+  "spell.combat_skills.world_crusher": "World Crusher",
+  "spell.combat_skills.world_crusher.guide": "The force of your blow shatters everything around, stunning enemies and knocking them back."
 }
