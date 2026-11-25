@@ -8,6 +8,7 @@ import net.chixozhmix.combat_skills.CombatSkills;
 import net.chixozhmix.combat_skills.api.skills.AbstractCombatSkill;
 import net.chixozhmix.combat_skills.entity.sword_aura.SwordAuraProjectile;
 import net.chixozhmix.combat_skills.registry.CsSchoolRegistry;
+import net.chixozhmix.combat_skills.registry.CsSoundRegistry;
 import net.chixozhmix.combat_skills.util.CsTags;
 import net.chixozhmix.combat_skills.util.SkillUtils;
 import net.minecraft.ChatFormatting;
@@ -85,7 +86,7 @@ public class SwordAura extends AbstractCombatSkill {
 
     @Override
     public Optional<SoundEvent> getCastFinishSound() {
-        return Optional.empty();
+        return Optional.of(CsSoundRegistry.SWORD_AURA_END.get());
     }
 
     @Override

@@ -17,6 +17,10 @@ public class CsSoundRegistry {
     public static final RegistryObject<SoundEvent> HOOKING = registerSoundEvent("hooking");
     public static final RegistryObject<SoundEvent> CRUSHING_BLOW = registerSoundEvent("crushing_blow");
     public static final RegistryObject<SoundEvent> SWIFT_JERK = registerSoundEvent("swift_jerk");
+    public static final RegistryObject<SoundEvent> SLICING_VORTEX = registerSoundEvent("slicing_vortex");
+    public static final RegistryObject<SoundEvent> WORLD_CRUSHER_START = registerSoundEvent("world_crusher_start");
+    public static final RegistryObject<SoundEvent> WORLD_CRUSHER_END = registerSoundEvent("world_crusher_end");
+    public static final RegistryObject<SoundEvent> SWORD_AURA_END = registerSoundEvent("sword_aura_end");
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
         return SOUNDS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(CombatSkills.MODID, name)));

@@ -3,6 +3,7 @@ package net.chixozhmix.combat_skills.entity.slicing_vortex;
 import io.redspace.ironsspellbooks.damage.DamageSources;
 import io.redspace.ironsspellbooks.entity.mobs.IAnimatedAttacker;
 import io.redspace.ironsspellbooks.entity.spells.AoeEntity;
+import net.chixozhmix.combat_skills.registry.CsSoundRegistry;
 import net.chixozhmix.combat_skills.registry.CsSpellRegistry;
 import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.network.syncher.EntityDataAccessor;
@@ -161,8 +162,8 @@ public class SlicingVortexEntity extends AoeEntity implements GeoEntity {
         for (Entity entity : entities) {
                 DamageSources.applyDamage(entity, this.damage, (CsSpellRegistry.SLICING_VORTEX.get()).getDamageSource(this, this.getOwner()));
             }
-//        if((tickCount - 1) % 10 == 0)
-//            playSound(SoundRegistry.CONE_OF_COLD_LOOP.get(), 2, random.nextIntBetweenInclusive(15, 20)*0.1f);
+        if((tickCount - 1) % 30 == 0)
+            playSound(CsSoundRegistry.SLICING_VORTEX.get(), 2, random.nextIntBetweenInclusive(15, 20)*0.1f);
     }
 
     @Override

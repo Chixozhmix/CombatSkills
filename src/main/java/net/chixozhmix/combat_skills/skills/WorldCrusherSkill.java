@@ -10,9 +10,11 @@ import io.redspace.ironsspellbooks.damage.DamageSources;
 import io.redspace.ironsspellbooks.particle.BlastwaveParticleOptions;
 import net.chixozhmix.combat_skills.CombatSkills;
 import net.chixozhmix.combat_skills.api.skills.AbstractCombatSkill;
+import net.chixozhmix.combat_skills.api.skills.SkillAnimations;
 import net.chixozhmix.combat_skills.entity.DragonSpearQuakeEntity;
 import net.chixozhmix.combat_skills.registry.CsMobEffectRegistry;
 import net.chixozhmix.combat_skills.registry.CsSchoolRegistry;
+import net.chixozhmix.combat_skills.registry.CsSoundRegistry;
 import net.chixozhmix.combat_skills.registry.CsSpellRegistry;
 import net.chixozhmix.combat_skills.util.CsTags;
 import net.chixozhmix.combat_skills.util.SkillUtils;
@@ -75,22 +77,22 @@ public class WorldCrusherSkill extends AbstractCombatSkill {
 
     @Override
     public AnimationHolder getCastStartAnimation() {
-        return super.getCastStartAnimation();
+        return SkillAnimations.WORLD_CRUSHER_START;
     }
 
     @Override
     public AnimationHolder getCastFinishAnimation() {
-        return super.getCastFinishAnimation();
+        return SkillAnimations.WORLD_CRUSHER_END;
     }
 
     @Override
     public Optional<SoundEvent> getCastStartSound() {
-        return super.getCastStartSound();
+        return Optional.of(CsSoundRegistry.WORLD_CRUSHER_START.get());
     }
 
     @Override
     public Optional<SoundEvent> getCastFinishSound() {
-        return super.getCastFinishSound();
+        return Optional.of(CsSoundRegistry.WORLD_CRUSHER_END.get());
     }
 
     @Override
@@ -143,7 +145,7 @@ public class WorldCrusherSkill extends AbstractCombatSkill {
         aoeEntity.moveTo(entity.position());
         aoeEntity.setOwner(entity);
         aoeEntity.setCircular();
-        aoeEntity.setRadius(6);
+        aoeEntity.setRadius(20);
         aoeEntity.setDuration(15);
         aoeEntity.setDamage(0);
         aoeEntity.setSlownessAmplifier(1);

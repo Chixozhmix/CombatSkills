@@ -15,4 +15,6 @@ public class SkillAnimations {
     public static final AnimationHolder RAM_START = new AnimationHolder(CombatSkills.id("ram_start"), true, true);
     public static final AnimationHolder RAM_END = new AnimationHolder(CombatSkills.id("ram_end"), true, true);
     public static final AnimationHolder JUTSU = new AnimationHolder(CombatSkills.id("jutsu"), true, true);
+    public static final AnimationHolder WORLD_CRUSHER_START = new AnimationHolder(CombatSkills.id("world_crusher_start"), true, true);
+    public static final AnimationHolder WORLD_CRUSHER_END = new AnimationHolder(CombatSkills.id("world_crusher_end"), true, true);
 }

@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
 
 public class SwordAuraProjectile extends Projectile implements AntiMagicSusceptible {
     private static final EntityDataAccessor<Float> DATA_RADIUS = SynchedEntityData.defineId(SwordAuraProjectile.class, EntityDataSerializers.FLOAT);
-    private static final double SPEED = 0.7d;
+    private static final double SPEED = 1.3d;
     private static final int EXPIRE_TIME = 40;
     public final int animationSeed;
     private final float maxRadius;
@@ -152,8 +152,6 @@ public class SwordAuraProjectile extends Projectile implements AntiMagicSuscepti
 
     @Override
     public void onSyncedDataUpdated(EntityDataAccessor<?> p_19729_) {
-        //irons_spellbooks.LOGGER.info("onSynchedDataUpdated");
-
         if (DATA_RADIUS.equals(p_19729_)) {
             this.refreshDimensions();
         }
@@ -173,9 +171,6 @@ public class SwordAuraProjectile extends Projectile implements AntiMagicSuscepti
             victims.add(entity);
         }
     }
-
-    //https://forge.gemwire.uk/wiki/Particles
-
 
     @Override
     protected boolean canHitEntity(Entity entity) {

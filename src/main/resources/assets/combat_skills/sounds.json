@@ -28,6 +28,26 @@
     "sounds": [
       "combat_skills:swift_jerk"
     ]
+  },
+  "slicing_vortex": {
+    "sounds": [
+      "combat_skills:slicing_vortex"
+    ]
+  },
+  "world_crusher_start": {
+    "sounds": [
+      "combat_skills:world_crusher_start"
+    ]
+  },
+  "world_crusher_end": {
+    "sounds": [
+      "combat_skills:world_crusher_end"
+    ]
+  },
+  "sword_aura_end": {
+    "sounds": [
+      "combat_skills:sword_aura_end"
+    ]
   }
 
 }
